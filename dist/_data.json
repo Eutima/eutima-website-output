@@ -1,8 +1,6 @@
 {
     "defaultLanguage": "en",
     "imageURL": "https://eutima.ch",
-    "description": "We deliver secure, stable solutions to drive innovation and digitalization for small and medium-sized companies. Our custom solutions are tailored to meet the unique needs of each business.",
-    "keywords": "eutima software application engineering programming development startup switzerland CH",
     "domain": "eutima.ch",
     "address": "Chutzenstrasse 20, 3007 Bern, Switzerland",
     "companyName": "Eutima AG",
@@ -12,6 +10,10 @@
     "telephoneNumber": "+41 31 511 19 44",
     "i18n": {
         "de": {
+            "keywords": "eutima software anwendung ingenieurwesen programmierung entwicklung startup schweiz CH",
+            "description": "Wir liefern sichere, stabile Lösungen, um Innovation und Digitalisierung für kleine und mittelständische Unternehmen voranzutreiben. Unsere maßgeschneiderten Lösungen sind auf die einzigartigen Bedürfnisse jedes Unternehmens zugeschnitten.",
+            "ogTitle": "Innovative Softwarelösungen",
+            "ogDescription": "ein führendes Softwareunternehmen in der Schweiz, spezialisiert auf innovative Softwareentwicklung und Ingenieurlösungen.",
             "title": "Eutima",
             "home": "Startseite",
             "servicesKey": "Services",
@@ -249,6 +251,10 @@
             "designedBy": "Entworfen von"
         },
         "fr": {
+            "keywords": "eutima logiciel application ingénierie programmation développement startup suisse CH",
+            "description": "Nous fournissons des solutions sécurisées et stables pour favoriser l'innovation et la digitalisation des petites et moyennes entreprises. Nos solutions personnalisées sont adaptées aux besoins uniques de chaque entreprise.",
+            "ogTitle": "Innovative Software Solutions",
+            "ogDescription": "une entreprise de logiciels leader en Suisse, spécialisée dans le développement et les solutions d'ingénierie logicielle innovantes.",
             "title": "Eutima",
             "home": "Accueil",
             "servicesKey": "Services",
@@ -486,6 +492,10 @@
             "designedBy": "Conçu par"
         },
         "it": {
+            "keywords": "eutima software applicazione ingegneria programmazione sviluppo startup svizzera CH",
+            "description": "Forniamo soluzioni sicure e stabili per promuovere l'innovazione e la digitalizzazione per le piccole e medie imprese. Le nostre soluzioni personalizzate sono progettate per soddisfare le esigenze uniche di ciascuna azienda.",
+            "ogTitle": "Soluzioni Software Innovative",
+            "ogDescription": "una delle principali aziende di software in Svizzera, specializzata in soluzioni di sviluppo e ingegneria software innovative.",
             "title": "Eutima",
             "home": "Home",
             "servicesKey": "Servizi",
@@ -723,6 +733,10 @@
             "designedBy": "Progettato da"
         },
         "en": {
+            "keywords": "eutima software application engineering programming development startup switzerland CH",
+            "description": "We deliver secure, stable solutions to drive innovation and digitalization for small and medium-sized companies. Our custom solutions are tailored to meet the unique needs of each business.",
+            "ogTitle": "Innovative Software Solutions",
+            "ogDescription": "a leading software company in Switzerland, specializes in innovative software development and engineering solutions.",
             "title": "Eutima",
             "home": "Home",
             "servicesKey": "Services",

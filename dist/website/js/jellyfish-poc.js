@@ -81,8 +81,8 @@ Example.chains = function () {
     const FLUID_FRICTION = 0.05;
 
     const FORCE = 0.036;
-    const FORCE_INTERVAL = 600;
-    const FORCE_INTERVAL_NOISE = 200;
+    const FORCE_INTERVAL = 500;
+    const FORCE_INTERVAL_NOISE = 150;
 
     const SPAWN_INTERVAL = 5000;
     const SPAWN_OFFSET_NOISE = 500;
@@ -90,7 +90,14 @@ Example.chains = function () {
     const SPAWN_POS_Y = BOX_HEIGHT + 250;
     const SPAWN_POSITION_NOISE = BOX_WIDTH / 2;
 
-    const EMPLOYEES_SPRITES = ['/images/ldl-medusa.png', '/images/azu-medusa.png', '/images/rma-medusa.png']
+
+    const LDL = 'ldl'
+    const AZU = 'azu'
+    const RMA = 'rma'
+    const FKO = 'fko'
+    const EMPLOYEES = [LDL, AZU, RMA, FKO];
+    const EMPLOYEES_SPRITES = EMPLOYEES.map(emp => `/images/${emp}-medusa.png`);
+
     const EMPLOYEE_SPAWN_PROBABILITY = 0.5
 
     const Engine = Matter.Engine,
@@ -359,12 +366,14 @@ Example.chains = function () {
         const sprite = mouseConstraint?.body?.render?.sprite;
         if (sprite != null) {
             lastMouseDownTime = new Date(); // Record current timestamp on mousedown
-            if (sprite?.texture?.includes('ldl')) {
-                employee = 'ldl';
-            } else if (sprite?.texture?.includes('azu')) {
-                employee = 'azu';
-            } else if (sprite?.texture?.includes('rma')) {
-                employee = 'rma';
+            if (sprite?.texture?.includes(LDL)) {
+                employee = LDL;
+            } else if (sprite?.texture?.includes(AZU)) {
+                employee = AZU;
+            } else if (sprite?.texture?.includes(RMA)) {
+                employee = RMA;
+            } else if (sprite?.texture?.includes(FKO)) {
+                employee = FKO;
             } else {
                 employee = 'unknown';
             }

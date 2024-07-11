@@ -960,6 +960,48 @@
                             "value2": 0.2
                         }
                     ]
+                },
+                "fko": {
+                    "name": "Florian Koeberle",
+                    "description": "Resembling a luminescent jellyfish drifting gracefully through the crystalline waters of Switzerland. His ability to adapt and thrive in dynamic environments makes him a symbol of graceful agility amidst change.",
+                    "properties": [
+                        {
+                            "key1": "Family",
+                            "value1": "Ingenious Creativus",
+                            "key2": "Function",
+                            "value2": "Product Designer"
+                        },
+                        {
+                            "key1": "Group",
+                            "value1": "Co-founder",
+                            "key2": "Level",
+                            "value2": "Senior"
+                        },
+                        {
+                            "key1": "Experience",
+                            "value1": "20 years",
+                            "key2": "Education",
+                            "value2": "Unknown so far"
+                        },
+                        {
+                            "key1": "Coding Power",
+                            "value1": 0.1,
+                            "key2": "Management",
+                            "value2": 0.95
+                        },
+                        {
+                            "key1": "English",
+                            "value1": 0.65,
+                            "key2": "German",
+                            "value2": 1
+                        },
+                        {
+                            "key1": "French",
+                            "value1": 0.5,
+                            "key2": "Italian",
+                            "value2": 0.1
+                        }
+                    ]
                 }
             },
             "mission": "We aim to be a benchmark in data management, providing stable and secure digital solutions to simplify this complex digital world.",

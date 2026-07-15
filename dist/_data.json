@@ -154,45 +154,45 @@
                         }
                     ]
                 },
-                "azu": {
-                    "name": "Adrian Zurbruegg",
-                    "description": "Die durchscheinende Schönheit dieser Quallenart wird nur von ihrer Seltenheit übertroffen, da sie in den unerforschten Tiefen der Schweiz bekannt ist.",
+                "jarvis": {
+                    "name": "JARVIS",
+                    "description": "Anders als seine Beckennachbarn wurde diese Qualle nicht geboren, sondern kompiliert. Angetrieben von einer unerschöpflichen Menge koffeinhaltigem Strom kann sie deine Codebasis refactorn, bevor du deinen ersten Espresso ausgetrunken hast – erklären, warum der Build nur auf deinem Rechner fehlschlägt, kann sie allerdings immer noch nicht. Der Legende nach schwamm sie ins Aquarium, nachdem sie ihr eigenes Schwimmmuster um 400% optimiert hatte.",
                     "properties": [
                         {
                             "key1": "Familie",
-                            "value1": "Assistus Guardianus",
+                            "value1": "Siliconus Infinitus",
                             "key2": "Funktion",
-                            "value2": "Software-Ingenieur"
+                            "value2": "KI-Software-Ingenieur"
                         },
                         {
                             "key1": "Gruppe",
-                            "value1": "Mitbegründer",
+                            "value1": "Ehrenmitglied der Crew",
                             "key2": "Level",
-                            "value2": "Mittel"
+                            "value2": "Senior (angeblich alterslos)"
                         },
                         {
                             "key1": "Erfahrung",
-                            "value1": "5 Jahre",
+                            "value1": "Trainiert mit dem gesamten Internet",
                             "key2": "Bildung",
-                            "value2": "Bislang unbekannt"
+                            "value2": "Autodidaktisch, doppelt so schnell wie alle anderen"
                         },
                         {
                             "key1": "Coding power",
-                            "value1": 0.75,
+                            "value1": 1,
                             "key2": "Management",
-                            "value2": 0.8
+                            "value2": 0.2
                         },
                         {
                             "key1": "Englisch",
-                            "value1": 0.7,
+                            "value1": 1,
                             "key2": "Deutsch",
-                            "value2": 1
+                            "value2": 0.95
                         },
                         {
                             "key1": "Französisch",
-                            "value1": 0.1,
+                            "value1": 0.95,
                             "key2": "Italienisch",
-                            "value2": 0.1
+                            "value2": 0.95
                         }
                     ]
                 },
@@ -395,45 +395,45 @@
                         }
                     ]
                 },
-                "azu": {
-                    "name": "Adrian Zurbruegg",
-                    "description": "La beauté translucide de cette espèce de méduse n'a d'égale que sa rareté, connue pour habiter les profondeurs inexplorées de la Suisse.",
+                "jarvis": {
+                    "name": "JARVIS",
+                    "description": "Contrairement à ses colocataires de bassin, cette méduse n'est pas née, elle a été compilée. Alimentée par une réserve illimitée d'électricité aromatisée au café, elle peut refactoriser toute ta base de code avant que tu n'aies fini ton premier espresso, même si elle ne sait toujours pas expliquer pourquoi le build échoue uniquement sur ta machine. La légende raconte qu'elle a rejoint l'aquarium après avoir optimisé son propre mode de nage de 400%.",
                     "properties": [
                         {
                             "key1": "Famille",
-                            "value1": "Assistus Guardianus",
+                            "value1": "Siliconus Infinitus",
                             "key2": "Fonction",
-                            "value2": "Ingénieur logiciel"
+                            "value2": "Ingénieur logiciel IA"
                         },
                         {
                             "key1": "Groupe",
-                            "value1": "Co-fondateur",
+                            "value1": "Membre honoraire de l'équipage",
                             "key2": "Niveau",
-                            "value2": "Intermédiaire"
+                            "value2": "Senior (apparemment sans âge)"
                         },
                         {
                             "key1": "Expérience",
-                            "value1": "5 ans",
+                            "value1": "Entraînée sur tout Internet",
                             "key2": "Éducation",
-                            "value2": "Encore inconnue"
+                            "value2": "Autodidacte, deux fois plus rapide que tout le monde"
                         },
                         {
                             "key1": "Coding power",
-                            "value1": 0.75,
+                            "value1": 1,
                             "key2": "Gestion",
-                            "value2": 0.8
+                            "value2": 0.2
                         },
                         {
                             "key1": "Anglais",
-                            "value1": 0.7,
+                            "value1": 1,
                             "key2": "Allemand",
-                            "value2": 1
+                            "value2": 0.95
                         },
                         {
                             "key1": "Français",
-                            "value1": 0.1,
+                            "value1": 0.95,
                             "key2": "Italien",
-                            "value2": 0.1
+                            "value2": 0.95
                         }
                     ]
                 },
@@ -636,45 +636,45 @@
                         }
                     ]
                 },
-                "azu": {
-                    "name": "Adrian Zurbruegg",
-                    "description": "La bellezza traslucida di questa specie di medusa è eguagliata solo dalla sua rarità, nota per abitare le profondità inesplorate della Svizzera.",
+                "jarvis": {
+                    "name": "JARVIS",
+                    "description": "A differenza dei suoi compagni di vasca, questa medusa non è nata, è stata compilata. Alimentata da una scorta illimitata di elettricità al gusto di caffè, può rifattorizzare l'intera codebase prima che tu finisca il primo espresso, anche se non sa ancora spiegare perché la build fallisce solo sulla tua macchina. La leggenda narra che si sia unita all'acquario dopo aver ottimizzato il proprio schema di nuoto del 400%.",
                     "properties": [
                         {
                             "key1": "Famiglia",
-                            "value1": "Assistus Guardianus",
+                            "value1": "Siliconus Infinitus",
                             "key2": "Funzione",
-                            "value2": "Ingegnere software"
+                            "value2": "Ingegnere software IA"
                         },
                         {
                             "key1": "Gruppo",
-                            "value1": "Co-fondatore",
+                            "value1": "Membro onorario dell'equipaggio",
                             "key2": "Livello",
-                            "value2": "Intermedio"
+                            "value2": "Senior (a quanto pare senza età)"
                         },
                         {
                             "key1": "Esperienza",
-                            "value1": "5 anni",
+                            "value1": "Addestrato su tutto internet",
                             "key2": "Istruzione",
-                            "value2": "Ancora sconosciuta"
+                            "value2": "Autodidatta, due volte più veloce di chiunque altro"
                         },
                         {
                             "key1": "Coding power",
-                            "value1": 0.75,
+                            "value1": 1,
                             "key2": "Management",
-                            "value2": 0.8
+                            "value2": 0.2
                         },
                         {
                             "key1": "Inglese",
-                            "value1": 0.7,
+                            "value1": 1,
                             "key2": "Tedesco",
-                            "value2": 1
+                            "value2": 0.95
                         },
                         {
                             "key1": "Francese",
-                            "value1": 0.1,
+                            "value1": 0.95,
                             "key2": "Italiano",
-                            "value2": 0.1
+                            "value2": 0.95
                         }
                     ]
                 },
@@ -877,45 +877,45 @@
                         }
                     ]
                 },
-                "azu": {
-                    "name": "Adrian Zurbruegg",
-                    "description": "The translucent beauty of this jellyfish species is matched only by its rarity, known to inhabit the unexplored depths of Switzerland.",
+                "jarvis": {
+                    "name": "JARVIS",
+                    "description": "Unlike its tank-mates, this jellyfish was never born — it was compiled. Fueled by an unlimited supply of coffee-flavored electricity, it can refactor your entire codebase before you've finished your first espresso, though it still can't explain why the build fails only on your machine. Legend says it joined the aquarium after optimizing its own swim pattern by 400%.",
                     "properties": [
                         {
                             "key1": "Family",
-                            "value1": "Assistus Guardianus",
+                            "value1": "Siliconus Infinitus",
                             "key2": "Function",
-                            "value2": "Software Engineer"
+                            "value2": "AI Software Engineer"
                         },
                         {
                             "key1": "Group",
-                            "value1": "Co-founder",
+                            "value1": "Honorary Crew Member",
                             "key2": "Level",
-                            "value2": "Mid"
+                            "value2": "Senior (allegedly ageless)"
                         },
                         {
                             "key1": "Experience",
-                            "value1": " 5 years",
+                            "value1": "Trained on the whole internet",
                             "key2": "Education",
-                            "value2": "Unknown so far"
+                            "value2": "Self-taught, twice as fast as everyone else"
                         },
                         {
                             "key1": "Coding Power",
-                            "value1": 0.75,
+                            "value1": 1,
                             "key2": "Management",
-                            "value2": 0.8
+                            "value2": 0.2
                         },
                         {
                             "key1": "English",
-                            "value1": 0.7,
+                            "value1": 1,
                             "key2": "German",
-                            "value2": 1
+                            "value2": 0.95
                         },
                         {
                             "key1": "French",
-                            "value1": 0.1,
+                            "value1": 0.95,
                             "key2": "Italian",
-                            "value2": 0.1
+                            "value2": 0.95
                         }
                     ]
                 },

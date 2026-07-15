@@ -49,7 +49,7 @@ Example.chains = function () {
     const WORLD_BACKGROUND = 'rgba(180,210,255,0.68)'
 
     const DELETE_MARGIN = 300;
-    const DELETE_INTERVAL = 5000;
+    const DELETE_INTERVAL = 1000;
 
     const BODY_RADIUS = 30;
     const TENTACLE_N = 7;
@@ -92,13 +92,13 @@ Example.chains = function () {
 
 
     const LDL = 'ldl'
-    const AZU = 'azu'
+    const JARVIS = 'jarvis'
     const RMA = 'rma'
     const FKO = 'fko'
-    const EMPLOYEES = [LDL, AZU, RMA, FKO];
+    const EMPLOYEES = [LDL, JARVIS, RMA, FKO];
     const EMPLOYEES_SPRITES = EMPLOYEES.map(emp => `/images/${emp}-medusa.png`);
 
-    const EMPLOYEE_SPAWN_PROBABILITY = 0.5
+    const EMPLOYEE_SPAWN_PROBABILITY = 0
 
     const Engine = Matter.Engine,
         Render = Matter.Render,
@@ -204,13 +204,15 @@ Example.chains = function () {
 
     const group = Body.nextGroup(true);
 
-    function generateJellyfish(posX, posY, bodyRadius, tentacleN, tentacleRadius, tentacleParts, tentaclePartsNoise, tentacleGap, tentacleSpread, tentacleStiffness, friction) {
+    function generateJellyfish(posX, posY, bodyRadius, tentacleN, tentacleRadius, tentacleParts, tentaclePartsNoise, tentacleGap, tentacleSpread, tentacleStiffness, friction, forcedEmployee = null) {
 
-        let isSpriteJellyfish = Math.random() < EMPLOYEE_SPAWN_PROBABILITY;
+        let isSpriteJellyfish = forcedEmployee !== null || Math.random() < EMPLOYEE_SPAWN_PROBABILITY;
         const color = getRandomColor()
         const bodyOptions = {frictionAir: friction, render: {fillStyle: color}}
         if (isSpriteJellyfish) {
-            const sprite = EMPLOYEES_SPRITES[Math.floor(Math.random() * EMPLOYEES_SPRITES.length)]
+            const sprite = forcedEmployee !== null
+                ? `/images/${forcedEmployee}-medusa.png`
+                : EMPLOYEES_SPRITES[Math.floor(Math.random() * EMPLOYEES_SPRITES.length)]
             bodyOptions['render'] = {
                 sprite: {
                     texture: sprite,
@@ -270,7 +272,7 @@ Example.chains = function () {
             Composite.add(world, [tentacle, constraint]);
         }
 
-        return {body, tentacles, constraints};
+        return {body, tentacles, constraints, employee: forcedEmployee};
     }
 
     function removeJellyfish(jellyfish) {
@@ -288,7 +290,7 @@ Example.chains = function () {
 
     const jellyfishes = [];
 
-    function spawnJellyfish() {
+    function spawnJellyfish(forcedEmployee = null) {
         if (running) {
             setTimeout(() => {
                 const jellyfish = generateJellyfish(
@@ -302,14 +304,20 @@ Example.chains = function () {
                     TENTACLE_GAP,
                     TENTACLE_SPREAD,
                     TENTACLE_STIFFNESS,
-                    FLUID_FRICTION
+                    FLUID_FRICTION,
+                    forcedEmployee
                 );
                 jellyfishes.push(jellyfish);
             }, Math.random() * SPAWN_OFFSET_NOISE);
         }
     }
 
+    function spawnEmployeeJellyfish(employeeName) {
+        spawnJellyfish(employeeName);
+    }
+
     spawnJellyfish();
+    EMPLOYEES.forEach(emp => spawnEmployeeJellyfish(emp));
 
     setInterval(spawnJellyfish, SPAWN_INTERVAL);
 
@@ -317,8 +325,12 @@ Example.chains = function () {
         if (running) {
             for (let i = jellyfishes.length - 1; i >= 0; i--) {
                 if (isOutsideBounds(jellyfishes[i].body, DELETE_MARGIN)) {
-                    removeJellyfish(jellyfishes[i]);
+                    const removed = jellyfishes[i];
+                    removeJellyfish(removed);
                     jellyfishes.splice(i, 1);
+                    if (removed.employee !== null) {
+                        spawnEmployeeJellyfish(removed.employee);
+                    }
                 }
             }
         }
@@ -368,8 +380,8 @@ Example.chains = function () {
             lastMouseDownTime = new Date(); // Record current timestamp on mousedown
             if (sprite?.texture?.includes(LDL)) {
                 employee = LDL;
-            } else if (sprite?.texture?.includes(AZU)) {
-                employee = AZU;
+            } else if (sprite?.texture?.includes(JARVIS)) {
+                employee = JARVIS;
             } else if (sprite?.texture?.includes(RMA)) {
                 employee = RMA;
             } else if (sprite?.texture?.includes(FKO)) {

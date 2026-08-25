@@ -586,6 +586,12 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 40px;
 }
 
+.fh5co-projects-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .fh5co-projects {
     width: 100%;
     float: left;

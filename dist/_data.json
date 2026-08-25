@@ -72,6 +72,13 @@
             },
             "projects": [
                 {
+                    "title": "Atoll",
+                    "description": "Atoll ermöglicht es dir, mit KI erstellte Anwendungen sicher online zu bringen, ganz ohne DevOps-Kenntnisse. Jedes Deployment erhält automatische Sicherheitsprüfungen, private Testumgebungen und eine 24/7-Überwachung, während KAI, unser KI-Agent, Fehler erkennt und Korrekturen zur Freigabe vorschlägt. Deine Daten werden sicher in der Schweiz gehostet.",
+                    "slogan": "DU HAST DIE APP GEBAUT. WIR BRINGEN SIE SICHER ONLINE.",
+                    "url": "https://atoll.eutima.ch/",
+                    "imageURL": "/images/atoll-logo.png"
+                },
+                {
                     "title": "KYDO",
                     "description": "KYDO revolutioniert das Dokumentenmanagement mit sicherer Speicherung, einfachem Teilen und nahtloser Integration. Greife jederzeit und überall auf deine Daten zu, die Verschlüsselung sorgt für Sicherheit. KYDO passt sich deinem Workflow an und macht die Dokumentenverwaltung mühelos.",
                     "slogan": "KEEP YOUR DATA ORGANIZED",
@@ -91,6 +98,13 @@
                     "slogan": "PLANEN, INFORMIEREN, FAHREN!",
                     "url": "",
                     "imageURL": "/images/smart-ride.jpg"
+                },
+                {
+                    "title": "LOMO",
+                    "description": "LOMO ist die Dispositionssoftware für Transport- und Entsorgungsunternehmen. Von der Auftragserfassung über die Tourenplanung bis zur Rechnungsstellung – LOMO bündelt Aufträge, Kunden, Fahrzeuge und Mitarbeitende auf einer zentralen Plattform und automatisiert wiederkehrende Abläufe wie die Fakturierung.",
+                    "slogan": "DISPOSITION, EINFACH ORGANISIERT.",
+                    "url": "#",
+                    "imageURL": "/images/lomo-logo.png"
                 },
                 {
                     "title": "Swissbilanz",
@@ -313,6 +327,13 @@
             },
             "projects": [
                 {
+                    "title": "Atoll",
+                    "description": "Atoll te permet de mettre en ligne en toute sécurité des applications créées avec l'IA, sans expertise DevOps. Chaque déploiement bénéficie de contrôles de sécurité automatiques, d'environnements de test privés et d'une surveillance 24h/24, tandis que KAI, notre agent IA, détecte les bugs et propose des corrections à valider. Tes données sont hébergées en toute sécurité en Suisse.",
+                    "slogan": "TU AS CRÉÉ L'APP. NOUS LA METTONS EN LIGNE EN TOUTE SÉCURITÉ.",
+                    "url": "https://atoll.eutima.ch/",
+                    "imageURL": "/images/atoll-logo.png"
+                },
+                {
                     "title": "KYDO",
                     "description": "KYDO révolutionne la gestion des documents avec un stockage sécurisé, un partage facile et une intégration transparente. Accédez à vos données à tout moment et en tout lieu, avec un cryptage assurant la sécurité. KYDO s'adapte à votre flux de travail, rendant la gestion sans effort. Les données sont stockées en Suisse.",
                     "slogan": "KEEP YOUR DATA ORGANIZED",
@@ -332,6 +353,13 @@
                     "slogan": "PLANIFIER, INFORMER, CONDUIRE !",
                     "url": "",
                     "imageURL": "/images/smart-ride.jpg"
+                },
+                {
+                    "title": "LOMO",
+                    "description": "LOMO est le logiciel de disposition pour les entreprises de transport et de gestion des déchets. De la saisie des commandes à la planification des tournées jusqu'à la facturation, LOMO centralise commandes, clients, véhicules et collaborateurs sur une seule plateforme et automatise les tâches récurrentes comme la facturation.",
+                    "slogan": "LA DISPOSITION, SIMPLEMENT ORGANISÉE.",
+                    "url": "#",
+                    "imageURL": "/images/lomo-logo.png"
                 },
                 {
                     "title": "Swissbilanz",
@@ -554,6 +582,13 @@
             },
             "projects": [
                 {
+                    "title": "Atoll",
+                    "description": "Atoll ti permette di pubblicare online in modo sicuro le applicazioni create con l'IA, senza bisogno di competenze DevOps. Ogni deployment include controlli di sicurezza automatici, ambienti di test privati e monitoraggio 24/7, mentre KAI, il nostro agente IA, individua i bug e propone correzioni da approvare. I tuoi dati sono ospitati in modo sicuro in Svizzera.",
+                    "slogan": "HAI CREATO L'APP. LA METTIAMO ONLINE IN SICUREZZA.",
+                    "url": "https://atoll.eutima.ch/",
+                    "imageURL": "/images/atoll-logo.png"
+                },
+                {
                     "title": "KYDO",
                     "description": "KYDO rivoluziona la gestione dei documenti con uno storage sicuro e una facile condivisione. Accedi ai tuoi dati crittografati in qualsiasi momento e ovunque. KYDO si adatta al tuo flusso di lavoro, rendendo la gestione dei documenti senza sforzo. I dati sono archiviati in modo sicuro e in Svizzera.",
                     "slogan": "KEEP YOUR DATA ORGANIZED",
@@ -573,6 +608,13 @@
                     "slogan": "PIANIFICARE, INFORMARE, GUIDARE!",
                     "url": "",
                     "imageURL": "/images/smart-ride.jpg"
+                },
+                {
+                    "title": "LOMO",
+                    "description": "LOMO è il software di disposizione per aziende di trasporto e smaltimento rifiuti. Dall'inserimento degli ordini alla pianificazione dei giri fino alla fatturazione, LOMO centralizza ordini, clienti, veicoli e collaboratori in un'unica piattaforma e automatizza i processi ricorrenti come la fatturazione.",
+                    "slogan": "LA DISPOSIZIONE, SEMPLICEMENTE ORGANIZZATA.",
+                    "url": "#",
+                    "imageURL": "/images/lomo-logo.png"
                 },
                 {
                     "title": "Swissbilanz",
@@ -795,6 +837,13 @@
             },
             "projects": [
                 {
+                    "title": "Atoll",
+                    "description": "Atoll lets you safely launch AI-built applications online without needing DevOps expertise. Every deployment gets automatic security checks, private test environments, and 24/7 monitoring, while KAI, our AI agent, spots bugs and writes fixes for your approval. Your data stays securely hosted in Switzerland.",
+                    "slogan": "YOU BUILT THE APP. WE GET IT SAFELY ONLINE.",
+                    "url": "https://atoll.eutima.ch/",
+                    "imageURL": "/images/atoll-logo.png"
+                },
+                {
                     "title": "KYDO",
                     "description": "KYDO revolutionizes document management with secure storage, easy sharing, and seamless integration. Access your data anytime, anywhere, with encryption ensuring safety. KYDO adapts to your workflow, making document handling effortless. Data is securely stored in Switzerland.",
                     "slogan": "KEEP YOUR DATA ORGANIZED",
@@ -814,6 +863,13 @@
                     "slogan": "PLAN, INFORM, DRIVE!",
                     "url": "",
                     "imageURL": "/images/smart-ride.jpg"
+                },
+                {
+                    "title": "LOMO",
+                    "description": "LOMO is the dispatch software for transport and waste-disposal companies. From order intake to route planning and invoicing, LOMO brings orders, customers, vehicles, and employees together on one platform and automates recurring tasks like invoicing.",
+                    "slogan": "DISPATCHING, SIMPLY ORGANIZED.",
+                    "url": "#",
+                    "imageURL": "/images/lomo-logo.png"
                 },
                 {
                     "title": "Swissbilanz",
